@@ -1,0 +1,194 @@
+/*Index*/
+.Contenedor_Header_Principal{
+     display: flex;
+     flex-direction: row;
+     background-color: #162871;
+}
+.div_pagina_principal a{ 
+     text-decoration: none;
+     color:#26b039;
+     font-size: 1.5rem;
+     animation: neonPulse 2s infinite alternate;/*color del texto con animacion*/
+}
+.div_pagina_principal{ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 17px;
+     gap: 20px;
+     width: 30%;
+     justify-content: space-evenly;
+}
+@keyframes neonPulse{ /*para el color neon*/
+     from{ 
+          text-shadow: 0 0 5px #248211, 0 0 10px #84ad37;
+     }    
+     to{ 
+          text-shadow: 0 0 20px #800e82, 0 0 30px #87119c;
+     }
+}
+body{ 
+     background-color: black;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+
+}
+.div_nombre_pagina{ 
+     font-size: 1.2rem;
+     color: #feffff; 
+     width: 70%;
+     display: flex;
+     justify-content: start;
+     padding-left: 20px;
+
+
+}
+.video-index{ 
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     bottom: 0;
+     right: 0;
+     transform: translate(-50%, -50%);
+     width: 100vw;
+     height: 100vw;
+     object-fit: cover;
+     z-index: -1;
+     pointer-events: none;
+}
+.Contenedor_Main{ 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80vh;
+     
+}
+.Contenedor_Formulario{ 
+     display: flex;
+     flex-direction: column;
+     gap: 20px; 
+     background-color: rgba(255, 255, 255, 0.25); 
+     backdrop-filter: blur(8px);
+     -webkit-backdrop-filter: blur(8px);   
+     padding: 2rem;
+     border-radius: 1.5rem;    
+     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.boton_iniciar{
+     background-color: #a5a7ad;
+}
+main form label{ 
+     height: 4px;
+}
+main form a{ 
+     text-decoration: none;
+}
+
+/*Crear Cuenta*/
+body{ 
+     background-color: rgb(255, 255, 255);
+     margin: 0;
+     padding: 0;
+}
+
+.Header_Crear_Cuenta{ 
+     display: flex;
+     flex-direction: column-reverse;
+}
+body header h2{ 
+     color: #000000;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+}
+body header div{ 
+     display: flex;
+     justify-content: end;
+     background-color: #162871;
+     padding: 10px;
+
+}
+.Enlace_Crear_Cuenta{
+gap: 100px;
+}
+body header div a{ 
+     text-decoration: none;
+     color: #26b039;
+     font-size: 1.5rem;
+     animation: neonPulse 2s infinite alternate;/*color del texto con animacion*/
+}
+.Form_Crear_Cuenta{
+     display: flex;
+     flex-direction: column;
+     gap: 13px;
+     width: 100%;
+     max-width: 430px;
+}
+.Form_Crear_Cuenta input{
+     width: 100%;
+     padding: 4px;
+     box-sizing: border-box;
+     border: 1px solid #000000;
+     border-radius: 8px;
+     justify-content: center;
+}
+.Main_Crear_Cuenta{
+     display: flex; 
+     padding: 2rem;
+     border: 1px solid #000000;
+     justify-content: center;
+     width: 100%;
+     max-width: 450px;
+     margin: 40px auto;
+}
+
+/*Contacto*/
+.Header_Contactos{ 
+     display: flex;
+     flex-direction: column-reverse;
+}
+body header nav a{
+     text-decoration: none;
+     color: #26b039;
+
+}
+body header nav{
+     display: flex;
+     justify-content: center;
+     font-size: 27px;
+     background-color: #162871;     
+}
+
+body main nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 60px;
+     box-sizing: border-box;
+     border: 1px solid #fb0000;
+     border-radius: 8px;
+     background-color: #eaefe1;
+     width: 100%;
+     max-width: 500px;
+     padding: 10px 25px;
+}
+body nav p{
+     font-size: 30px;
+}
+body main nav img{
+     width: 65px;          
+     height: auto;        
+     transition: transform 0.3s;
+     mix-blend-mode: multiply;
+
+}
+.Main_Contactos{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     width: 100%;
+     padding-top: 40px;
+}
+ 
+
